@@ -1,4 +1,58 @@
 body{
     margin: 0;
     background: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    
+}
+
+.main-container{
+    width: 1440px;
+    display: grid; 
+    grid-template-columns: 230px 980px 230px;
+    grid-template-rows: 96px;
+}
+
+.items-container{
+    width: 980px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container{
+    width: 380px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-container *{
+    margin: 0;
+
+}
+
+button{
+    width: 128px;
+    height: 48px;
+    background: #E4C1AE;
+    border-radius: 32px;
+    border: none;  
+    font-weight: 700;
+    font-size: 16px;
+    color:white;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 16px;
 }
